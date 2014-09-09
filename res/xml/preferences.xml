@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:key="time"
+        android:persistent="false"
+        android:title="Time of the Day" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_pref"
+            android:title="Start at night only" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="presence"
+        android:persistent="false"
+        android:title="Messages" >
+        <ListPreference
+            android:defaultValue="Oh crap"
+            android:entries="@array/arraydata"
+            android:entryValues="@array/arraydatavalues"
+            android:key="mylistpref"
+            android:title="Let us see" />
+    </PreferenceCategory>
+</PreferenceScreen>

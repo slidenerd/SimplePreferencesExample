@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PreferenceTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string-array name="arraydata">
+        <item >Hi</item>
+        <item >Bye</item>
+        <item >See you</item>
+    </string-array>
+    <string-array name="arraydatavalues">
+        <item >Welcoming a person</item>
+        <item >saying Goodbye to a person</item>
+        <item >Hope that happens</item>
+    </string-array>
+</resources>
